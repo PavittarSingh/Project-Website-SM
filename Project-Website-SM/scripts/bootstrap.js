@@ -827,7 +827,7 @@ if (typeof jQuery === 'undefined') {
   }
 
   function clearMenus(e) {
-    if (e && e.which === 3) return
+    if (e && e.which === 4) return
     $(backdrop).remove()
     $(toggle).each(function () {
       var $this         = $(this)
